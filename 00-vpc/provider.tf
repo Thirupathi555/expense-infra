@@ -1,3 +1,4 @@
+
 terraform {
   required_providers {
     aws = {
@@ -7,7 +8,7 @@ terraform {
   }
 
   backend "s3" {
-    bucket = "thirupathis-remote-state-dev"
+    bucket = "thirupathis-remote-state-bucket-dev"
     key    = "expense-vpc"
     region = "us-east-1"
     dynamodb_table = "81s-locking-dev"

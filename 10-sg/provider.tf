@@ -9,7 +9,7 @@ terraform {
 
   backend "s3" {
     bucket = "thirupathis-remote-state-bucket-dev"
-    key    = "expense-vpc"
+    key    = "expense-sg"
     region = "us-east-1"
     dynamodb_table = "thirupathis-locking-dev"
   }

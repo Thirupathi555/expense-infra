@@ -11,7 +11,7 @@ terraform {
     bucket = "thirupathis-remote-state-bucket-dev"
     key    = "expense-sg"
     region = "us-east-1"
-    dynamodb_table = "thirupathis-locking-dev"
+    dynamodb_table = "81s-locking-dev"
   }
 }
 

@@ -8,10 +8,10 @@ terraform {
   }
 
   backend "s3" {
-    bucket = "thirupathis-remote-state-bucket-dev"
+    bucket = "hirupathis-remote-state-bucket-dev"
     key    = "expense-vpc"
     region = "us-east-1"
-    dynamodb_table = "thirupathis-locking-dev"
+    dynamodb_table = "81s-locking-dev"
   }
 }
 
